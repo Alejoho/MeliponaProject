@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[BeeHives]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [FirstNest] INT NOT NULL,
   [SecondNest] INT,
   [ThirdNest] INT,

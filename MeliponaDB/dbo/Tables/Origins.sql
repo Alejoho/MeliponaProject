@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Origins]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [NestNumber] INT NOT NULL,
   [Origin] NVARCHAR(100) NOT NULL,
   [Description] NVARCHAR(500) NOT NULL,

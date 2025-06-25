@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Positions]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [BeeHiveId] INT NOT NULL,
   [PositionNumber] INT NOT NULL,
   [PlacementDate] DATE NOT NULL,

@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Operations]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [BeeHiveId] INT NOT NULL,
   [Date] DATE NOT NULL,
   [Description] NVARCHAR(500) NOT NULL,

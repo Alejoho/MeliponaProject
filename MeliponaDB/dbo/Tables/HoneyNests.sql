@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[HoneyNests]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [BeeHiveId] INT NOT NULL,
   [HoneyNestNumber] INT NOT NULL,
   [PlacementDate] DATE NOT NULL,

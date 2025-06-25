@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Indicators]
 (
-  [Id] INT NOT NULL PRIMARY KEY,
+  [Id] INT NOT NULL PRIMARY KEY IDENTITY,
   [BeeHiveId] INT NOT NULL,
   [Weight] FLOAT NOT NULL,
   [MeasureDate] DATE NOT NULL,
