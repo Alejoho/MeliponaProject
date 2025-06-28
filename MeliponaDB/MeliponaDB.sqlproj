@@ -67,5 +67,9 @@
     <Build Include="dbo\Tables\Operations.sql" />
     <Build Include="dbo\Tables\Origins.sql" />
     <Build Include="dbo\Tables\Positions.sql" />
+    <Build Include="dbo\Tables\Nests.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish Profiles\MeliponaDB.publish.xml" />
   </ItemGroup>
 </Project>
